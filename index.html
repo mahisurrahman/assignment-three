@@ -15,18 +15,41 @@
     <script src="https://cdn.tailwindcss.com"></script>
 
     <!-- Google Fonts -->
-
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
+        rel="stylesheet">
 </head>
 
 <body>
     <header>
-
+        <!-- Navbar Section -->
+        <nav class="mx-28 px-10 py-3 bg-[#F85559] flex justify-between items-center rounded-full ">
+            <div class="flex space-x-4 text-white font-medium text-sm">
+                <a href="#">Home</a>
+                <a href="#">About us</a>
+                <a href="#">Shop</a>
+                <a href="#">All Fruits</a>
+            </div>
+            <div class="flex items-center space-x-3">
+                <img src="./images/logo.png" alt="">
+                <h2 class="text-4xl font-bold text-white">Fruit Burst</h2>
+            </div>
+            <div class="flex bg-white px-4 py-2 rounded-full">
+                <input type="search" name="search" id="search" placeholder="search">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M21 21l-5.197-5.197m0 0A7.5 7.5 0 105.196 5.196a7.5 7.5 0 0010.607 10.607z" />
+                  </svg>
+                  
+            </div>
+        </nav>
     </header>
     <main>
 
     </main>
     <footer>
-        
+
     </footer>
 </body>
 
